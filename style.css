@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Georgia, serif;
+  background-image: url("/images/nightcity.jpg");
+  flex-flow: column wrap;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; /* Center the image */
+}
+
+.header {
+  color: rgb(251, 249, 249);
+  height: 500px;
+}
+
+.side-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-style: italic;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-shadow: 0 0 10px rgba(85, 65, 0.8); /* Glow effect */
+  animation: glow-animation 2s infinite alternate; /* Animation */
+}
+
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  gap: 64px;
+  padding-bottom: 64px;
+  margin-top: 100px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1f2937;
+}
+
+.logo {
+  padding-top: 20px;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.placeholder {
+  font-size: 18px;
+  display: flex;
+  background-color: gray;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.text {
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 36px;
+  color: white;
+  text-shadow: 0 0 10px rgba(85, 65, 0.8); /* Glow effect */
+  animation: glow-animation 2s infinite alternate; /* Animation */
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: auto;
+}
+
+a {
+  font-size: 18px;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  font-size: 8px;
+}
+
+button {
+  align-self: center;
+  padding: 5px 25px 5px 25px;
+  color: #f9faf8;
+  background-color: darkorange;
+  border-radius: 5px;
+  border: 1px solid #f9faf8;
+  margin-top: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 100px;
+}
+
+.card {
+  border-radius: 25px;
+  border: 2px solid #f9faf8;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.card-text {
+  padding: 36px;
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  color: #f6f0f0;
+  transition: color 0.3s;
+}
+
+.card-text:hover {
+  color: #ff6600; /* Change to a different color on hover */
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px; /* Adjust as needed */
+  margin-top: auto;
+  padding: 0 20px 0 20px;
+  background-color: rgba(
+    239,
+    232,
+    220,
+    0.2
+  ); /* Red color with 50% transparency */
+}
+
+.quote {
+  font-size: 50px;
+  font-style: italic;
+  margin: 50px 50px 0 50px;
+  text-shadow: 0 0 20px rgb(85, 65, 0.8); /* Glow effect */
+  animation: glow-animation 2s infinite alternate; /* Animation */
+  color: rgb(250, 248, 246);
+}
+
+.quoter {
+  font-size: large;
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-end;
+  margin: 0 450px 50px 0;
+  color: rgb(251, 250, 250);
+}
+
+.fourth-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkorange;
+  color: #f9faf8;
+  border-radius: 5px;
+  margin: 80px 150px 80px 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  width: 1000px;
+}
+
+.second-button {
+  align-self: center;
+  padding: 5px 25px 5px 25px;
+  color: #f9faf8;
+  background-color: darkorange;
+  border-radius: 5px;
+  border: 1px solid #f9faf8;
+}
+
+.fourth-header {
+  margin: 40px 0 0 0;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.fourth-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-subtext {
+  margin: 0px 0px 40px 0px;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 35px;
+  text-align: center;
+  color: white;
+}
